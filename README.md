@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ## Configuration
 
-### 1. Create a `config.py` File
+### 1. Set up the `config.py` File
 
 Open the `config.py` file in the project root directory and set up the token, admin_id for logging and logging level.
 
@@ -204,4 +204,3 @@ Consider implementing the following features to improve the bot:
 - **User Profiles**: Maintain user profiles to track progress, preferences, or achievements.
 - **Rich Media Integration**: Incorporate images, videos, or audio to enhance storytelling.
 - **Branching Narratives**: Develop more complex storylines with multiple branching paths and endings.
-```
