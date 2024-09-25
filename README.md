@@ -114,7 +114,7 @@ Ensure that the `texts.json` file is present in the project directory. This file
 Start the bot by running the following command:
 
 ```bash
-python bot.py
+python main.py
 ```
 
 The bot will begin polling for messages. Ensure that the `texts.json` and `config.py` files are correctly set up before running.
