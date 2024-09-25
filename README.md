@@ -63,20 +63,19 @@ pip install -r requirements.txt
 
 ### 1. Create a `config.py` File
 
-Create a `config.py` file in the project root directory with the following content:
+Open the `config.py` file in the project root directory and set up the token, admin_id for logging and logging level.
 
 ```python
-BOT_TOKEN = 'YOUR_ACTUAL_BOT_TOKEN'
-ADMIN_ID = YOUR_TELEGRAM_USER_ID
-LOGGING_LEVEL = 1  # 0: No logging, 1: Minimal logging, 2: Detailed logging
-```
+BOT_TOKEN = 'BOT_TOKEN'
 
-- **BOT_TOKEN**: Replace `'YOUR_ACTUAL_BOT_TOKEN'` with the token you received from BotFather.
-- **ADMIN_ID**: Replace `YOUR_TELEGRAM_USER_ID` with your Telegram user ID to receive logs. You can find your user ID by messaging [@userinfobot](https://t.me/userinfobot) on Telegram.
-- **LOGGING_LEVEL**:
-  - `0`: No logging.
-  - `1`: Minimal logging (e.g., start and end commands).
-  - `2`: Detailed logging (all user inputs).
+ADMIN_ID = 'ADMIN_TELEGRAM_ID'
+
+# Set the logging level:
+# 0 - No logging
+# 1 - Log only start and end messages (with user ID and username)
+# 2 - Log every user response (with user ID and username)
+LOGGING_LEVEL = 1
+```
 
 ### 2. Prepare the Story Data
 
